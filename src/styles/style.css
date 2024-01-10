@@ -1,0 +1,43 @@
+.category-card {
+    background-color: beige;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .category-card h3 {
+    color: blue;
+  }
+
+  .item-list {
+    background-color: lightblue;
+    padding: 5px;
+    list-style-type: none;
+  }
+
+  .item-list li {
+    padding: 5px;
+    border-bottom: 1px solid beige;
+  }
+
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .header {
+    background-color: #007bff; /* Couleur de fond du header */
+    color: white; /* Couleur du texte */
+    padding: 10px; /* Espacement intérieur */
+    display: flex; /* Affichage en ligne */
+    justify-content: space-around; /* Répartir les éléments horizontalement */
+    align-items: center; /* Centrer verticalement les éléments */
+  }
+
+  .header a {
+    text-decoration: none; /* Supprimer la décoration de lien */
+    color: white; /* Couleur des liens */
+    margin: 0 10px; /* Espacement des liens */
+  }
